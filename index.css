@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #403730;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #F2F2F2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #595047;
+}
+
+h2.calculo {
+    text-align: center;
+    color: #595047;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="number"],
+button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #403730;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #403730;
+}
+
+#resultContainer {
+    margin-top: 20px;
+}
+
+#resultsTable {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+#resultsTable th, #resultsTable td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+#resultsTable th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+#resultsTable tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#resultsTable tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.removeGradeButton {
+    background-color: #403730;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.removeGradeButton:hover {
+    background-color: #403730;
+}
